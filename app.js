@@ -3,6 +3,7 @@ var count = 0;
 function grater() {
     var number1 = document.getElementById('num1').value;
     var color = document.getElementById('color').value;
+    number1 = Number(number1);
     for (let i = 0; i < number1; i++) {
         count++;
         var btn = document.createElement("button");
